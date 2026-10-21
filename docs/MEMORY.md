@@ -25,7 +25,7 @@ _(Empty)_
 - Dashboard hosting: Firebase Hosting (decided for simplicity)
 - No model training — API-only approach confirmed
 - Firestore native vector search replaces Vertex AI Vector Search (free-tier friendly)
-- Gemini via AI Studio API key (`GEMINI_API_KEY` in `.env`), wrapped in one function for a later Vertex switch
+- Gemini on Vertex AI via `google-genai` SDK, ADC auth, project in `GCP_PROJECT_ID`. Replaced the AI Studio key because the free tier allows only 20 requests/day per model, too low for the 125-row evaluation and the demo
 - Multi-tenant Firestore schema approved, see `docs/SCHEMA.md`
 - Branches: `main`, `frontend`, `backend`. Functions and data-pipeline live on `backend`
 - Initial channels for the 4-week demo: WhatsApp (Meta test number) + simulator script. Gmail and Instagram are future work
@@ -43,7 +43,7 @@ None currently.
 ## Next Steps
 
 1. Developer: create GCP project, budget alert, enable APIs (needs card for trial)
-2. Developer: put `GEMINI_API_KEY` in local `.env` (never commit)
+2. Developer: install gcloud, run `gcloud auth application-default login`, set `GCP_PROJECT_ID` in local `.env` (never commit)
 3. Create Cloud Run webhook receiver for WhatsApp
 4. Configure Pub/Sub topic for WhatsApp channel
 5. Create Firestore collections, indexes and seed the demo business and FAQs

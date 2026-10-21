@@ -20,7 +20,7 @@ Hybrid 3-branch decision flow:
 | Conversation state & message history | Firestore |
 | Intent & sentiment classification | Natural Language API (or Vertex AI AutoML Text) |
 | RAG match + confidence score | Gemini embeddings (768 dims) + Firestore native vector search |
-| LLM reply/summary generation | Gemini via AI Studio API key (behind one function, so a later Vertex AI switch is a one-place change) |
+| LLM reply/summary generation | Gemini on Vertex AI via the `google-genai` SDK (billed to GCP trial credit, no free-tier daily cap; auth by Application Default Credentials, no key) |
 | Outbound auto-reply — gated | Cloud Function → WhatsApp Cloud API / Instagram Graph API / Gmail API |
 | Owner notifications (urgent/low-confidence) | Firebase Cloud Messaging (push) |
 | Owner dashboard | React/Next.js on Cloud Run or Firebase Hosting |

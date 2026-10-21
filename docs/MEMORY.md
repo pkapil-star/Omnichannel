@@ -8,7 +8,10 @@ Phase 1 — Ingest + Classify + Notify (in progress)
 
 ## What's Built
 
-_(Empty — to be filled as we build)_
+- Docs: PRD, ARCHITECTURE, SCHEMA, MEMORY in `docs/`
+- Labeled dataset (125 rows) and sample FAQ file (12 FAQs) in `data-pipeline/`
+- Simulator script `backend/simulator.py`
+- Repo with 3 branches on GitHub
 
 ## What's In Progress
 
@@ -21,6 +24,11 @@ _(Empty)_
 - Dashboard: React/Next.js (not Vue, not plain HTML)
 - Dashboard hosting: Firebase Hosting (decided for simplicity)
 - No model training — API-only approach confirmed
+- Firestore native vector search replaces Vertex AI Vector Search (free-tier friendly)
+- Gemini via AI Studio API key (`GEMINI_API_KEY` in `.env`), wrapped in one function for a later Vertex switch
+- Multi-tenant Firestore schema approved, see `docs/SCHEMA.md`
+- Branches: `main`, `frontend`, `backend`. Functions and data-pipeline live on `backend`
+- Initial channels for the 4-week demo: WhatsApp (Meta test number) + simulator script. Gmail and Instagram are future work
 
 ## Open Questions
 
@@ -34,7 +42,8 @@ None currently.
 
 ## Next Steps
 
-1. Set up GCP project + enable required APIs
-2. Create Cloud Run webhook receiver for WhatsApp
-3. Configure Pub/Sub topic for WhatsApp channel
-4. Set up Firestore schema for conversations
+1. Developer: create GCP project, budget alert, enable APIs (needs card for trial)
+2. Developer: put `GEMINI_API_KEY` in local `.env` (never commit)
+3. Create Cloud Run webhook receiver for WhatsApp
+4. Configure Pub/Sub topic for WhatsApp channel
+5. Create Firestore collections, indexes and seed the demo business and FAQs

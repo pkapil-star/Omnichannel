@@ -1,0 +1,125 @@
+{"text":"What time do you open on Sunday?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"hours","route":"auto_reply"}
+{"text":"are you open tomorrow?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"hours","route":"auto_reply"}
+{"text":"Till what time are you open today?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"hours","route":"auto_reply"}
+{"text":"Hi! What are your working hours?","ch":"instagram","intent":"faq","sent":"positive","faq":"hours","route":"auto_reply"}
+{"text":"do you close for lunch","ch":"gmail","intent":"faq","sent":"neutral","faq":"hours","route":"auto_reply"}
+{"text":"Where exactly is the salon located?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"location","route":"auto_reply"}
+{"text":"Can you share your address please","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"location","route":"auto_reply"}
+{"text":"Which area are you in?","ch":"instagram","intent":"faq","sent":"neutral","faq":"location","route":"auto_reply"}
+{"text":"Hi, I'd love to visit, what's your location?","ch":"whatsapp","intent":"faq","sent":"positive","faq":"location","route":"auto_reply"}
+{"text":"is it near the metro station","ch":"gmail","intent":"faq","sent":"neutral","faq":"location","route":"auto_reply"}
+{"text":"How much is a haircut?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_hair","route":"auto_reply"}
+{"text":"what are your haircut charges","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_hair","route":"auto_reply"}
+{"text":"Price for womens haircut and blow dry?","ch":"instagram","intent":"faq","sent":"neutral","faq":"price_hair","route":"auto_reply"}
+{"text":"Hello, could you tell me the cost of a haircut?","ch":"gmail","intent":"faq","sent":"positive","faq":"price_hair","route":"auto_reply"}
+{"text":"haircut rate kya hai","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_hair","route":"auto_reply"}
+{"text":"How much does a facial cost?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_facial","route":"auto_reply"}
+{"text":"Do you have facial packages and prices?","ch":"instagram","intent":"faq","sent":"neutral","faq":"price_facial","route":"auto_reply"}
+{"text":"price of a cleanup facial?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_facial","route":"auto_reply"}
+{"text":"Hi, what's the charge for a gold facial?","ch":"gmail","intent":"faq","sent":"positive","faq":"price_facial","route":"auto_reply"}
+{"text":"facial ka rate?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"price_facial","route":"auto_reply"}
+{"text":"How can I book an appointment?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"booking_howto","route":"auto_reply"}
+{"text":"Do I need to call to book or can I message here?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"booking_howto","route":"auto_reply"}
+{"text":"How do I reserve a slot?","ch":"instagram","intent":"faq","sent":"neutral","faq":"booking_howto","route":"auto_reply"}
+{"text":"what is the process to get an appointment","ch":"gmail","intent":"faq","sent":"neutral","faq":"booking_howto","route":"auto_reply"}
+{"text":"can i book online","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"booking_howto","route":"auto_reply"}
+{"text":"What is your cancellation policy?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"cancel","route":"auto_reply"}
+{"text":"If I cancel the day before, do I lose my deposit?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"cancel","route":"auto_reply"}
+{"text":"Can I reschedule my appointment for free?","ch":"gmail","intent":"faq","sent":"neutral","faq":"cancel","route":"auto_reply"}
+{"text":"how late can I cancel","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"cancel","route":"auto_reply"}
+{"text":"is there a cancellation fee","ch":"instagram","intent":"faq","sent":"neutral","faq":"cancel","route":"auto_reply"}
+{"text":"Do you accept UPI?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"payment","route":"auto_reply"}
+{"text":"Can I pay by card?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"payment","route":"auto_reply"}
+{"text":"Which payment methods do you take?","ch":"gmail","intent":"faq","sent":"neutral","faq":"payment","route":"auto_reply"}
+{"text":"do you take cash only?","ch":"instagram","intent":"faq","sent":"neutral","faq":"payment","route":"auto_reply"}
+{"text":"Is Google Pay accepted at the salon?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"payment","route":"auto_reply"}
+{"text":"Is there parking available?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"parking","route":"auto_reply"}
+{"text":"Where can I park my car when I visit?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"parking","route":"auto_reply"}
+{"text":"do you have parking space for bikes","ch":"instagram","intent":"faq","sent":"neutral","faq":"parking","route":"auto_reply"}
+{"text":"Is parking free near your salon?","ch":"gmail","intent":"faq","sent":"neutral","faq":"parking","route":"auto_reply"}
+{"text":"any parking nearby?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"parking","route":"auto_reply"}
+{"text":"Do you offer bridal makeup packages?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"bridal","route":"auto_reply"}
+{"text":"What's included in your bridal package?","ch":"gmail","intent":"faq","sent":"neutral","faq":"bridal","route":"auto_reply"}
+{"text":"Hi! I'm getting married in December, do you do bridal packages?","ch":"instagram","intent":"faq","sent":"positive","faq":"bridal","route":"auto_reply"}
+{"text":"bridal package price range?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"bridal","route":"auto_reply"}
+{"text":"do you do pre-wedding packages too","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"bridal","route":"auto_reply"}
+{"text":"Which brand of hair color do you use?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"products","route":"auto_reply"}
+{"text":"Do you use organic products?","ch":"instagram","intent":"faq","sent":"neutral","faq":"products","route":"auto_reply"}
+{"text":"What products do you use for facials?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"products","route":"auto_reply"}
+{"text":"Is your hair color ammonia free?","ch":"gmail","intent":"faq","sent":"neutral","faq":"products","route":"auto_reply"}
+{"text":"Are your products safe for sensitive skin?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"products","route":"auto_reply"}
+{"text":"Do you accept walk-ins?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"walkin","route":"auto_reply"}
+{"text":"Can I just come in without an appointment?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"walkin","route":"auto_reply"}
+{"text":"is appointment compulsory","ch":"instagram","intent":"faq","sent":"neutral","faq":"walkin","route":"auto_reply"}
+{"text":"Do I need to book or can I walk in today?","ch":"gmail","intent":"faq","sent":"neutral","faq":"walkin","route":"auto_reply"}
+{"text":"walk in allowed on weekends?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"walkin","route":"auto_reply"}
+{"text":"Do you do kids haircuts?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"kids","route":"auto_reply"}
+{"text":"What's the minimum age for a kids haircut?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"kids","route":"auto_reply"}
+{"text":"my son is 4, do you cut little kids' hair","ch":"instagram","intent":"faq","sent":"neutral","faq":"kids","route":"auto_reply"}
+{"text":"Do you have a kids haircut price?","ch":"gmail","intent":"faq","sent":"neutral","faq":"kids","route":"auto_reply"}
+{"text":"can toddlers get haircuts there","ch":"whatsapp","intent":"faq","sent":"neutral","faq":"kids","route":"auto_reply"}
+{"text":"My haircut is completely uneven and nobody is picking up my calls!!","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"I want a refund. The facial gave me a rash.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Worst service ever. Waited 1 hour past my appointment.","ch":"gmail","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Your stylist ruined my hair color. I am very upset.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"This is unacceptable, I was charged twice for the same service.","ch":"gmail","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"I have been messaging for two days and no reply. Terrible.","ch":"instagram","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"The staff was rude to me yesterday. I will leave a bad review.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"My bridal makeup trial was a disaster, wedding is in 2 weeks, need urgent help","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Allergic reaction after the hair treatment, please call me NOW","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Why is your haircut so expensive?? ridiculous prices","ch":"instagram","intent":"faq","sent":"negative","faq":"price_hair","route":"push"}
+{"text":"You said you're open till 9 but the shop was closed! waste of my time","ch":"whatsapp","intent":"faq","sent":"negative","faq":"hours","route":"push"}
+{"text":"Still no response?? Is anyone even there?","ch":"whatsapp","intent":"other","sent":"negative","faq":null,"route":"push"}
+{"text":"I'm so disappointed. Booked a slot and you gave it away.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Very unprofessional behaviour. Never coming again.","ch":"instagram","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"the products you used burnt my scalp. Need to speak to the owner immediately","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Cancelled my appointment and you still charged me. Fix this today.","ch":"gmail","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Parking is a nightmare and your staff doesn't care, awful experience","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Absolutely horrible. The facial was painful and nobody apologised.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"I'll report this to consumer court if you don't refund me","ch":"gmail","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Terrible experience, hair is damaged, want my money back","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"worst salon in the city, don't go there","ch":"instagram","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Where is my refund? It's been 10 days!!","ch":"gmail","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"bohot bura experience tha, paise wapas karo","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"You messed up my booking time and I missed my own event. Furious.","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"Please respond urgently, my child got hurt at the salon","ch":"whatsapp","intent":"complaint","sent":"negative","faq":null,"route":"push"}
+{"text":"I'd like to book a haircut for Saturday at 4pm","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can I get an appointment tomorrow afternoon?","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Book me a facial for Friday please","ch":"instagram","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Need a slot for bridal trial next week, any date works","ch":"gmail","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can you move my appointment from Monday to Wednesday?","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Please book 2 haircuts, me and my brother, Sunday morning","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Is 6pm free on Thursday for a haircut?","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"I want to reserve the bridal package for 12 December","ch":"gmail","intent":"booking","sent":"positive","faq":null,"route":"queue"}
+{"text":"hi can i come at 11 on saturday for hair color","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Cancel my 5pm appointment today please","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can I book the same stylist as last time? Priya","ch":"instagram","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Looking for a slot this weekend for a facial and haircut","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Please confirm my appointment tomorrow","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Group booking for 6 people, bridesmaids, on the 20th","ch":"gmail","intent":"booking","sent":"positive","faq":null,"route":"queue"}
+{"text":"Reschedule me to next Tuesday evening","ch":"whatsapp","intent":"booking","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you do the thing from last time?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"How much for the treatment my friend got?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you do keratin? How long does it last and what does it cost?","ch":"instagram","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you have a student discount?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you do nails?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can I bring my own products?","ch":"gmail","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you offer home service?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Is the salon wheelchair accessible?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"do you have any offers this week","ch":"instagram","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Do you sell gift cards?","ch":"gmail","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can I get a patch test before hair color?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Is a male stylist available?","ch":"whatsapp","intent":"faq","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Thanks a lot, loved my haircut!","ch":"whatsapp","intent":"other","sent":"positive","faq":null,"route":"queue"}
+{"text":"Great service yesterday, thank you Priya!","ch":"instagram","intent":"other","sent":"positive","faq":null,"route":"queue"}
+{"text":"Hi","ch":"whatsapp","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Hello, is anyone there?","ch":"whatsapp","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Can I speak to the owner?","ch":"whatsapp","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"I left my umbrella at the salon yesterday","ch":"whatsapp","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"We are a skincare supplier, can we send you our catalog?","ch":"gmail","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Are you hiring stylists?","ch":"gmail","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Sharing my review link, please check","ch":"whatsapp","intent":"other","sent":"positive","faq":null,"route":"queue"}
+{"text":"Interested in collaborating on Instagram, DM us","ch":"instagram","intent":"other","sent":"positive","faq":null,"route":"queue"}
+{"text":"Can you call me back please","ch":"whatsapp","intent":"other","sent":"neutral","faq":null,"route":"queue"}
+{"text":"Love your work! Following you","ch":"instagram","intent":"other","sent":"positive","faq":null,"route":"queue"}
+{"text":"Has my product order been delivered? Tracking number please","ch":"gmail","intent":"other","sent":"neutral","faq":null,"route":"queue"}

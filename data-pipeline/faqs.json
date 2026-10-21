@@ -1,0 +1,17 @@
+{
+  "business": "Glow Salon (demo)",
+  "faqs": [
+    {"id": "hours", "question": "What are your opening hours?", "answer": "We're open Monday to Saturday 10am-8pm and Sunday 11am-6pm."},
+    {"id": "location", "question": "Where are you located?", "answer": "Glow Salon, 12 MG Road, opposite City Mall, near Metro Gate 2."},
+    {"id": "price_hair", "question": "How much is a haircut?", "answer": "Haircuts start at Rs 400 for men and Rs 600 for women (blow dry included)."},
+    {"id": "price_facial", "question": "How much is a facial?", "answer": "Facials start at Rs 800 (cleanup) and go up to Rs 2,500 (gold facial)."},
+    {"id": "booking_howto", "question": "How do I book an appointment?", "answer": "Message us here with your service, day and time and the owner will confirm your slot."},
+    {"id": "cancel", "question": "What is your cancellation policy?", "answer": "Free cancellation or rescheduling up to 4 hours before your slot. Later cancellations lose the Rs 200 booking deposit."},
+    {"id": "payment", "question": "Which payment methods do you accept?", "answer": "We accept cash, UPI (GPay, PhonePe, Paytm) and all major cards."},
+    {"id": "parking", "question": "Is parking available?", "answer": "Free parking for cars and bikes in the City Mall basement, 2 minutes' walk from us."},
+    {"id": "bridal", "question": "Do you offer bridal packages?", "answer": "Yes. Bridal packages start at Rs 15,000 and include trial, makeup, hair styling and draping. Message us your date."},
+    {"id": "products", "question": "What products do you use?", "answer": "We use ammonia-free hair color and dermatologist-tested skincare products, suitable for sensitive skin."},
+    {"id": "walkin", "question": "Do you accept walk-ins?", "answer": "Yes, walk-ins are welcome subject to availability. Booking ahead guarantees your slot, especially on weekends."},
+    {"id": "kids", "question": "Do you do kids haircuts?", "answer": "Yes, for children aged 3 and above. Kids haircuts are Rs 300."}
+  ]
+}

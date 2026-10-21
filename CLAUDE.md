@@ -40,6 +40,7 @@
     - Do not ship a feature that only satisfies one side. Flag gaps to the developer.
 
 14. **Branch workflow** — Three branches: `main`, `frontend`, `backend`. Dashboard work goes on `frontend`, backend/functions/data-pipeline work on `backend`. Merge to `main` via PR only after tests and lint pass. Never commit directly to `main`.
+    - Two folders, one repo (git worktree): `Omnichannel ( ml and cloud )` is always `backend`, sibling `Omnichannel-frontend` is always `frontend`. Never run `git checkout` to change a folder's branch. Frontend/dashboard work happens only in `Omnichannel-frontend`; never write dashboard files in the backend folder.
 
 15. **No Claude attribution** — Never add `Co-Authored-By: Claude` or "Generated with Claude Code" lines to commits or PRs.
 

@@ -1,4 +1,4 @@
-"""classify(text) -> (intent, sentiment) via Gemini on Vertex AI. Only Gemini call site: _call()."""
+"""classify(text) -> (intent, sentiment) via Gemini (AI Studio key). Only Gemini call site: _call()."""
 import functools
 import json
 import os
@@ -32,9 +32,7 @@ SCHEMA = {
 @functools.cache
 def _client():
     return genai.Client(
-        vertexai=True,
-        project=os.environ["GCP_PROJECT_ID"],
-        location=os.environ.get("GCP_LOCATION", "us-central1"),
+        api_key=os.environ["GEMINI_API_KEY"],
         http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(attempts=5)),
     )
 

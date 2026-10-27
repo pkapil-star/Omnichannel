@@ -5,3 +5,5 @@ node_modules/
 __pycache__/
 package.json
 package-lock.json
+.venv/
+data-pipeline/embeddings.npz

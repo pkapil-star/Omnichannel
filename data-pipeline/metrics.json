@@ -1,0 +1,10 @@
+{
+  "intent": {
+    "trained_cv_accuracy": 0.92,
+    "trained_cv_macro_f1": 0.878978533760566
+  },
+  "sent": {
+    "trained_cv_accuracy": 0.928,
+    "trained_cv_macro_f1": 0.8526160648489315
+  }
+}

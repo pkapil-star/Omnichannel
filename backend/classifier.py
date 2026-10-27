@@ -47,6 +47,15 @@ def _call(text):
     )
 
 
+EMBED_MODEL = os.environ.get("GEMINI_EMBED_MODEL", "gemini-embedding-001")
+
+
+def embed(texts):
+    """List of strings -> list of vectors. Used for training features."""
+    r = _client().models.embed_content(model=EMBED_MODEL, contents=texts)
+    return [e.values for e in r.embeddings]
+
+
 def classify(text):
     r = json.loads(_call(text).text)
     return r["intent"], r["sentiment"]

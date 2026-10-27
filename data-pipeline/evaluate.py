@@ -10,8 +10,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "backend"))
 from classifier import classify
 
-rows = [json.loads(l) for l in (Path(__file__).parent / "dataset.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
-rows = rows[: int(sys.argv[1])] if len(sys.argv) > 1 else rows
+all_rows = [json.loads(l) for l in (Path(__file__).parent / "dataset.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+rows = all_rows[: int(sys.argv[1])] if len(sys.argv) > 1 else all_rows
 delay = float(sys.argv[2]) if len(sys.argv) > 2 else 4
 
 hit = Counter()
@@ -22,6 +22,9 @@ for r in rows:
         confusion[field][(r[field], got)] += 1
         hit[field] += got == r[field]
     time.sleep(delay)
+
+if len(rows) == len(all_rows):  # only a full run is a valid baseline for train.py
+    (Path(__file__).parent / "baseline.json").write_text(json.dumps({f: hit[f] / len(rows) for f in ("intent", "sent")}))
 
 for field in ("intent", "sent"):
     print(f"\n{field}: {hit[field]}/{len(rows)} = {hit[field] / len(rows):.1%}")

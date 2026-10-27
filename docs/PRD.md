@@ -6,7 +6,7 @@
 
 An AI-powered system that unifies incoming messages from WhatsApp, Instagram, and Gmail for small business owners into a single dashboard. The system classifies messages, scores confidence, and uses a hybrid auto-reply design:
 
-- **High-confidence FAQ match + non-negative sentiment** → Gemini generates reply → Cloud Function sends via channel API automatically
+- **High-confidence FAQ match + non-negative sentiment** → Gemini generates reply → Azure Function sends via channel API automatically
 - **Urgent / negative sentiment** → FCM push notification to owner's phone immediately
 - **Low-confidence / complex / booking / complaint** → Dashboard queue, owner replies personally
 
@@ -23,11 +23,11 @@ Local service businesses (salons, parlours, repair shops, restaurants) — typic
 1. Webhook receivers for WhatsApp, Instagram, Gmail
 2. Intent classification (FAQ / booking / complaint / other) using NLP
 3. Sentiment scoring (positive / neutral / negative)
-4. RAG-based FAQ matching with confidence scoring via Vertex AI Vector Search
+4. RAG-based FAQ matching with confidence scoring via Cosmos DB vector search
 5. Conditional auto-reply: only fires when intent = FAQ, confidence ≥ threshold (e.g. 0.85), sentiment ≠ negative
 6. Push notification (FCM) for urgent/negative messages
 7. Owner dashboard: message queue, conversation history, reply-from-dashboard, analytics
-8. BigQuery analytics: message volume, auto-reply rate, top FAQs, channel breakdown
+8. Gate-log analytics (Cosmos DB `gate_logs`): message volume, auto-reply rate, top FAQs, channel breakdown
 
 ## Out of Scope (MVP)
 
